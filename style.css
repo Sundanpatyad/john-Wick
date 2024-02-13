@@ -149,6 +149,8 @@ nav h3{
 @media only screen and (max-width: 768px) {
   
 
+  
+
     #main h1 {
         font-size: 60px;
         line-height: 80px;
@@ -225,11 +227,7 @@ nav h3{
 
 @media only screen and (max-width: 487px){
 
-    #menuhidden{
-        display: none;
-        height: 0;
-        width: 0;
-    }
+ 
 
 
     nav h3{
@@ -243,7 +241,11 @@ nav h3{
     
     
     }
-
+    #menuhidden{
+        display: none;
+        height: 0;
+        width: 0;
+    }
 
    #main h1{
         font-size: 50px;
