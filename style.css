@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 35%, rgba(237,206,231,1) 100%);
+    font-family: poppins;
+}
+
+#main nav{
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    position:fixed;
+    width: 100%;
+    padding: 20px 40px;
+
+}
+nav h3{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-right: 5px;
+
+
+}
+#main h1{
+    font-size: 85px;
+    line-height: 100px;
+    letter-spacing: -3px;
+    padding: 50px 40px;
+
+}
+#place{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 45px;
+}
+#place h3{
+    font-weight: 500;
+}
+#place h4{
+    font-weight: 500;
+}
+#hero{
+    /* background-color: aqua; */
+    background-image: url("wick.jpg");
+    height: 80vh;
+    background-size: cover;
+}
+#about{
+    padding: 30px 10px;
+    display: flex;
+}
+
+#about h2{
+    width: 65%;
+    font-size: 60px;
+    padding: 10px 40px;
+    letter-spacing: -3px;
+    font-weight: 500;
+    line-height: 60px;
+    color: rgb(18, 18, 18);
+}
+#about-part2{
+    border-left: 2px solid black;
+    padding:10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#icon i{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+}
+#skills{
+    display: flex;
+    border-top: 2px solid black;
+    height: 40%;
+}
+.skills-part1{
+    display: flex;
+    /* align-items: center; */
+    width: 35%;
+    justify-content: space-between;
+    padding:30px 50px;
+}
+.skills-part1 i{
+    font-size: 30px;
+}
+.skills-part1 h2{
+    font-weight: 500;
+}
+.skills-part2{
+    width: 65%;
+    /* background-color: rgb(255, 255, 255); */
+    /* border-left: 2px solid black; */
+    padding: 30px;
+    display: flex;
+}
+.skill1{
+    padding: 20px;
+    /* border-left: 2px solid black; */
+    /* border-bottom: 2px solid black; */
+    /* border-bottom: 2px solid black; */
+
+}
+ .skill1 .part{
+    margin-bottom: 20px;
+    /* border-bottom: 2px solid black; */
+    padding-bottom: 20px;
+    border-left: 2px solid black;
+    padding-left: 25px ;
+}
+.skill2{
+    padding: 10px;
+    /* border-bottom: 2px solid black; */
+}
+.skill2 .part{
+   margin-bottom: 20px;
+   /* border-bottom: 2px solid black; */
+   padding-bottom: 19px;
+   border-left: 2px solid black;
+   padding-left: 25px;
+
+}
+.part p{
+    font-size: 12px;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+
+    #main h1 {
+        font-size: 60px;
+        line-height: 80px;
+        letter-spacing: -2px;
+        padding: 40px 20px;
+    }
+
+    #place {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about h2 {
+        width: auto;
+        font-size: 40px;
+        padding: 10px 20px;
+        letter-spacing: -2px;
+        line-height: 50px;
+    }
+
+    #about-part2 {
+        border-left: none;
+        border-top: 2px solid black;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    #skills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills-part1 {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+
+    .skills-part1 h2 {
+        margin-bottom: 20px;
+    }
+
+    .skills-part2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .skill1,
+    .skill2 {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .skill1 .part,
+    .skill2 .part {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    #icon{
+        margin-top: 25px;
+        margin-left: -11px;
+    }
+
+   
+}
+
+@media only screen and (max-width: 487px){
+   #main h1{
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: -2px;
+        margin-bottom: -27px;
+    }
+
+}
