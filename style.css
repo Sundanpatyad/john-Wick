@@ -224,6 +224,27 @@ nav h3{
 }
 
 @media only screen and (max-width: 487px){
+
+    #menuhidden{
+        display: none;
+        height: 0;
+        width: 0;
+    }
+
+
+    nav h3{
+        padding: 7px 15px;
+        background-color: black;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+        border-radius: 50px;
+        margin-right: -3px;
+    
+    
+    }
+
+
    #main h1{
         font-size: 50px;
         line-height: 60px;
